@@ -1,0 +1,52 @@
+﻿# =====================================================
+# SERVICES SPECIFIC REQUIREMENTS
+# Video Processing & Scene Segmentation Pipeline
+# =====================================================
+
+# =======================
+# COMPUTER VISION
+# =======================
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# =======================
+# VIDEO SCENE SEGMENTATION
+# =======================
+transnetv2>=1.4
+
+# =======================
+# DEEP LEARNING BACKEND
+# =======================
+tensorflow>=2.13.0
+# Alternative: torch>=2.0.0 (if using PyTorch-based models)
+
+# =======================
+# UTILITIES
+# =======================
+PyYAML>=6.0.1
+
+# =======================
+# ADDITIONAL VIDEO PROCESSING
+# =======================
+# ffmpeg-python>=0.2.0     # For advanced video manipulation
+# moviepy>=1.0.3           # Alternative video processing
+# imageio>=2.31.0          # For handling video I/O
+
+# =======================
+# PERFORMANCE & OPTIMIZATION
+# =======================
+# numba>=0.58.0            # For JIT compilation speedup
+# scikit-image>=0.21.0     # For advanced image processing
+
+# =======================
+# LOGGING & DEBUGGING
+# =======================
+# tqdm>=4.65.0             # Progress bars for long operations
+# matplotlib>=3.7.0        # For visualization during development
+
+# =====================================================
+# INSTALLATION NOTES:
+# 1. Make sure to have ffmpeg installed system-wide for video processing
+# 2. For GPU support, install tensorflow-gpu instead of tensorflow
+# 3. TransNetV2 requires tensorflow and works best with GPU
+# =====================================================

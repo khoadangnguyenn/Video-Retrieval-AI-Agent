@@ -1,0 +1,70 @@
+﻿# =======================
+# WEB FRAMEWORK & API
+# =======================
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# =======================
+# AI/ML CORE LIBRARIES
+# =======================
+torch>=2.0.0
+transformers>=4.35.0
+numpy>=1.24.0
+pandas>=2.1.0
+
+# =======================
+# AUDIO PROCESSING
+# =======================
+openai-whisper>=20231117
+soundfile>=0.12.1
+
+# =======================
+# COMPUTER VISION
+# =======================
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# =======================
+# OCR LIBRARIES
+# =======================
+paddleocr>=2.7.0
+vietocr>=0.3.8
+
+# =======================
+# TEXT PROCESSING
+# =======================
+sentence-transformers>=2.2.2
+
+# =======================
+# VECTOR & SEARCH
+# =======================
+faiss-cpu>=1.7.4
+elasticsearch>=8.11.0
+
+# =======================
+# UTILITIES & LOGGING
+# =======================
+loguru>=0.7.2
+PyYAML>=6.0.1
+python-multipart>=0.0.6
+
+# =======================
+# VIDEO PROCESSING
+# =======================
+transnetv2>=1.4
+tensorflow>=2.13.0
+
+# =======================
+# DEVELOPMENT & TESTING
+# =======================
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0  # For testing FastAPI
+
+# =======================
+# OPTIONAL: GPU SUPPORT
+# =======================
+# torch-audio>=2.0.0  # Uncomment for audio processing
+# faiss-gpu>=1.7.4    # Uncomment for GPU vector search (instead of faiss-cpu)
