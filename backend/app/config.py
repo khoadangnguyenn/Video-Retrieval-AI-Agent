@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     ELASTICSEARCH_URL: str = "http://localhost:9200"
     
     # OpenAI Configuration
-    OPENAI_API_KEY: str = "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"
+    OPENAI_API_KEY: str = ""
     
     # Vector Database Configuration
     FAISS_INDEX_PATH: str = "./data/faiss_index"
